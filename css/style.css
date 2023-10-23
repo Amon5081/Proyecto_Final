@@ -1,11 +1,47 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.navbar-brand img {
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
 }
 
-html {
-  height: 100%;
+body {
+  background-image: url(https://img.freepik.com/vector-premium/gato-huellas-patas-patrones-fisuras_42349-783.jpg?w=740) !important;
+  font-family: "EB Garamond", serif !important;
+  font-family: "Young Serif", serif !important;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem !important;
+  text-align: center;
+  margin: 100px !important;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem !important;
+  text-align: center;
+  margin-top: 100px !important;
+  margin-bottom: 90px !important;
+}
+
+.container-fluid p {
+  font-size: 1.6rem !important;
+  margin: 50px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  background-color: rgba(83, 83, 83, 0.103);
+  hyphens: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.226);
 }
 
 /*# sourceMappingURL=style.css.map */
