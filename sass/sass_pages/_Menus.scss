@@ -1,0 +1,23 @@
+.Menus{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    text-align: center;
+
+    .card-body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-around;
+    }
+
+    .card{
+        margin: 15px;
+        background-color: rgb(199, 176, 226);
+    }
+    .card-title{
+        color: chocolate;
+        padding-bottom: 10px;
+    }
+
+}
