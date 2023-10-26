@@ -78,4 +78,21 @@ footer {
   padding-bottom: 10px;
 }
 
+.horarios {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.horarios p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 4rem;
+  border-radius: 20px;
+  background-color: rgba(190, 116, 32, 0.548);
+}
+
+.subtitulo {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
 /*# sourceMappingURL=style.css.map */
