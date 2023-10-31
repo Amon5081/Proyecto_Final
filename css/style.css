@@ -108,4 +108,17 @@ footer {
   box-shadow: 0px 0px 30px #000;
 }
 
+.propuesta {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 4rem;
+  border-radius: 20px;
+  background-color: rgba(136, 147, 241, 0.548);
+}
+.propuesta img {
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
