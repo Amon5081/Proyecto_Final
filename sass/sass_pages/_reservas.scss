@@ -2,7 +2,6 @@
     margin-left: 20px;
     margin-right: 20px;
     p{
-
         text-align: center;
         font-size: 1.30rem;
         padding: 4rem;
@@ -14,4 +13,12 @@
 .subtitulo{
     padding-right: 10rem;
     padding-left: 10rem;
+}
+
+@media (max-width: 425px){
+        .horarios{
+            p{
+            font-size: 1rem;
+        }
+    }
 }

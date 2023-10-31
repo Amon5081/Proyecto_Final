@@ -20,6 +20,45 @@ body h2 {
   margin-top: 100px !important;
   margin-bottom: 90px !important;
 }
+@media (max-width: 425px) {
+  body h1 {
+    font-size: 2rem !important;
+  }
+  body h2 {
+    font-size: 1rem !important;
+  }
+}
+
+body {
+  background-image: url(https://img.freepik.com/vector-premium/gato-huellas-patas-patrones-fisuras_42349-783.jpg?w=740) !important;
+  background-color: rgb(190, 190, 190) !important;
+  background-blend-mode: soft-light !important;
+  font-family: "Young Serif", serif !important;
+}
+body h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem !important;
+  text-align: center;
+  margin: 100px !important;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+body h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem !important;
+  text-align: center;
+  margin-top: 100px !important;
+  margin-bottom: 90px !important;
+}
+@media (max-width: 425px) {
+  body h1 {
+    font-size: 2rem !important;
+  }
+  body h2 {
+    font-size: 1rem !important;
+  }
+}
 
 .navbar-brand img {
   border-radius: 30px;
@@ -51,6 +90,11 @@ body h2 {
   hyphens: auto;
 }
 
+@media (max-width: 425px) {
+  .container-fluid .inicio {
+    font-size: 1rem !important;
+  }
+}
 footer {
   margin-top: 50px;
   text-align: center;
@@ -95,6 +139,11 @@ footer {
   padding-left: 10rem;
 }
 
+@media (max-width: 425px) {
+  .horarios p {
+    font-size: 1rem;
+  }
+}
 .galeria2 {
   margin: 30px;
   display: grid;
@@ -119,6 +168,12 @@ footer {
 }
 .propuesta img {
   width: 50%;
+}
+
+@media (max-width: 425px) {
+  .propuesta {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
