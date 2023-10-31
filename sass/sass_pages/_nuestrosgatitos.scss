@@ -1,0 +1,5 @@
+@import "../mixins/reutilizables";
+
+.galeria2{
+    @include galery-responsive(30%,1fr)
+}
